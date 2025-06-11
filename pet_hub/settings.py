@@ -143,6 +143,7 @@ else:
     AWS_DEFAULT_ACL = 'public-read'
     AWS_QUERYSTRING_AUTH = False
     AWS_LOCATION = 'static'
+    AWS_MEDIA_LOCATION = 'media' # Not part of django-storage
     AWS_S3_CUSTOM_DOMAIN = getenv('AWS_S3_CUSTOM_DOMAIN')
 
     STORAGES = {
