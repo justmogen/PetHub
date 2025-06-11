@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Django-specific files
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+media
+
+# Virtual environment directories
+.env.local
+.env/
+venv/
+env/
+venv_pet-hub/
+
+# PyCharm project files
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test, coverage, and build artifacts
+.coverage
+.tox/
+.eggs/
+*.egg-info/
+
+# Others
+*.pyc
